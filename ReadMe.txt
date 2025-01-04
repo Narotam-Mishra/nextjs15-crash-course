@@ -14,4 +14,27 @@ Q. What happens when we run `npm run dev` in terminal?
 
 # In an ideal scenario, client components are Leaf components in our app component tree.
 
-## Routing (12:40)
+## File based Routing (12:40)
+
+# Next.js has a file-system based routing mechanism. The way we organize our files and folders determines the routes of our application.
+
+# Routing conventions :-
+- all routes must be place inside the `app` folder,
+- every file that represents a route should be named `page.js` or `page.tsx`,
+- every folder corresponds to a path segment in the browser URL
+
+# Note - In Next.js15, dynamic APIs have been made asynchronous and `params` is one of them hence we will have to convert our react component into `async` function
+
+# Layouts 
+
+# What if we want to share UI elements across multiple pages, this is where the concept of `layout` comes in. 
+
+# Layouts allow us to define UI that is shared between multiple pages.
+
+# The root layout within `src/app` which wraps all the pages in Nextjs application. The `children` prop represents the page content which NExt.js will automatically populate based on the current route.
+
+# To determine the current route, Next.js provides the `usePathname` hook.
+
+# To achieve programmatic navigation we will rely on `useRouter` hook. The `Link` component and `router.push()` from `useRouter` are fundamental for navigating between the pages in Next.js15 application.
+
+# The `app` router is not just for UI, it can also handle data. Next.js provides a feature called `Route Handlers` that allows us to create custom request handlers for our application.
