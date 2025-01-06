@@ -31,10 +31,16 @@ Q. What happens when we run `npm run dev` in terminal?
 
 # Layouts allow us to define UI that is shared between multiple pages.
 
-# The root layout within `src/app` which wraps all the pages in Nextjs application. The `children` prop represents the page content which NExt.js will automatically populate based on the current route.
+# The root layout within `src/app` which wraps all the pages in Nextjs application. The `children` prop represents the page content which Next.js will automatically populate based on the current route.
 
 # To determine the current route, Next.js provides the `usePathname` hook.
 
 # To achieve programmatic navigation we will rely on `useRouter` hook. The `Link` component and `router.push()` from `useRouter` are fundamental for navigating between the pages in Next.js15 application.
 
 # The `app` router is not just for UI, it can also handle data. Next.js provides a feature called `Route Handlers` that allows us to create custom request handlers for our application.
+
+## Route Handlers (26:18)
+
+# To create a route handler we will use the app routers file based routing system in the app.
+
+# In order to create a route handler, the file name must be `route.ts` as per Nextjs convention.
