@@ -47,8 +47,12 @@ Q. What happens when we run `npm run dev` in terminal?
 
 ## Fetching Data (32:31)
 
+# Data fetching (Client component)
+
 # Nextjs15 offers powerful data fetching capabilities that almost blur the line between frontend and backend.
 
 # For Mock API we shall use https://jsonplaceholder.typicode.com/
+
+# Data fetching (Server component)
 
 # 
