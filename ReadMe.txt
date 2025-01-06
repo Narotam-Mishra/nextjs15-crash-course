@@ -44,3 +44,11 @@ Q. What happens when we run `npm run dev` in terminal?
 # To create a route handler we will use the app routers file based routing system in the app.
 
 # In order to create a route handler, the file name must be `route.ts` as per Nextjs convention.
+
+## Fetching Data (32:31)
+
+# Nextjs15 offers powerful data fetching capabilities that almost blur the line between frontend and backend.
+
+# For Mock API we shall use https://jsonplaceholder.typicode.com/
+
+# 
