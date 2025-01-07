@@ -105,4 +105,4 @@ Q. What happens when we run `npm run dev` in terminal?
 
 # If we want to protect an entire route based on authentication status then we need to use clerks middleware.
 
-# TZo read user and session data clerk provides `auth` and `currentUser` methods
+# To read user and session data clerk provides `auth` and `currentUser` methods
