@@ -1,14 +1,16 @@
 
 
 type User = {
-    id: number;
-    name: string;
-    username: string;
-    email: string;
-    phone: string;
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  phone: string;
 };
 
 export default async function UsersServer() {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+  
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   const users = await res.json();
 
