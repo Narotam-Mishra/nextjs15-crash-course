@@ -104,3 +104,5 @@ Q. What happens when we run `npm run dev` in terminal?
 # `middleware.ts` :- this will help us access auth data and configure protected routes later
 
 # If we want to protect an entire route based on authentication status then we need to use clerks middleware.
+
+# TZo read user and session data clerk provides `auth` and `currentUser` methods
