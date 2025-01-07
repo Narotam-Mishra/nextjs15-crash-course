@@ -86,4 +86,21 @@ Q. What happens when we run `npm run dev` in terminal?
 
 # FromData is a built-in browser API that provides a way to easily construct key-value pairs representing form fields and their values.
 
-# Within the `addUser` function we will include `use server` directive that tells Nextjs that, this function (`addUser`) should be executed on the server> It is a key feature of server actions in Nextjs
+# Within the `addUser` function we will include `use server` directive that tells Nextjs that, this function (`addUser`) should be executed on the server> It is a key feature of server actions in Nextjs.
+
+## Authentication (47:07)
+
+# For Authentication we will use clerk (https://clerk.com/)
+
+# Authentication with Clerk
+1). Sign up,
+2). Sign in,
+3). Manage account,
+4). Show UI elements based on auth status,
+5). Protect routes based on auth status,
+6). Read session and user data,
+7). Sign out,
+
+# `middleware.ts` :- this will help us access auth data and configure protected routes later
+
+# If we want to protect an entire route based on authentication status then we need to use clerks middleware.
